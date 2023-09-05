@@ -265,7 +265,7 @@ void render()
 	//
 	glClear(GL_COLOR_BUFFER_BIT);
 	//Draw box.
-	glPushMatrix()
+	glPushMatrix();
 	if(g.xres < 400)
 	{
 		glColor3f(1.0, 0.0, 0.0);
